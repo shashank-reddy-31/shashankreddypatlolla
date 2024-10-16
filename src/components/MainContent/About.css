@@ -1,0 +1,36 @@
+.about-container {
+    padding: 50px;
+    text-align: center;
+    animation: fadeIn 1s forwards; /* Animation for fade in */
+  }
+
+  .about-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #282c34;
+  }
+
+  .about-container p {
+    font-size: 1.2em;
+  }
+
+  /* Fade In Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .about-container h1 {
+      font-size: 2em;
+    }
+
+    .about-container p {
+      font-size: 1em;
+    }
+  }

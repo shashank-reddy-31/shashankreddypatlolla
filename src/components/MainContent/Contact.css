@@ -1,0 +1,66 @@
+.contact-container {
+    padding: 50px;
+    text-align: center;
+    animation: fadeIn 1s forwards; /* Animation for fade in */
+  }
+  
+  .contact-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #282c34;
+  }
+  
+  .contact-container p {
+    font-size: 1.2em;
+  }
+  
+  .contact-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-container input,
+  .contact-container textarea {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #61dafb;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .contact-container button:hover {
+    background-color: #21a1f1; /* Darker shade on hover */
+  }
+
+  /* Fade In Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .contact-container h1 {
+      font-size: 2em;
+    }
+
+    .contact-container p {
+      font-size: 1em;
+    }
+  }
